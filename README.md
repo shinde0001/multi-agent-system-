@@ -20,6 +20,8 @@ An automated, multi-agent artificial intelligence pipeline that researches, writ
 
 ## 🏗️ System Architecture
 
+![Architecture Diagram](architecture_diagram.png)
+
 The application relies on a centralized **Orchestrator** that manages the state machine and passes data between 5 specialized agents.
 
 ```mermaid
