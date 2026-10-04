@@ -94,9 +94,9 @@ When you run `main.py`, you will be prompted for inputs. Here is an example of w
 ```text
 Welcome to the Multi-Agent Book Writer!
 Do you want to write the default 'UPI' book? (y/n) [y/n] (y): n
-What is the title/topic of your book?: Risk Management Strategies for Day Traders
-Who is the target audience? (General readers): Beginner to Intermediate Stock Traders
-What tone should the book have? (Professional and engaging): Professional, analytical, and actionable
+What is the title/topic of your book?: Quantum Computing Applications in Modern Cryptography
+Who is the target audience? (General readers): Computer Science Researchers & Cybersecurity Engineers
+What tone should the book have? (Professional and engaging): Technical, academic, and rigorous
 ```
 
 ### Step-by-Step Workflow:
