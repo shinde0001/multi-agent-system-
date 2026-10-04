@@ -1,6 +1,6 @@
 import time
 from duckduckgo_search import DDGS
-from typing import List, Dict, Optional
+from typing import List, Dict
 import logging
 
 logging.basicConfig(level=logging.INFO)

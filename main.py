@@ -1,7 +1,6 @@
 from config import BookBrief, DEFAULT_BRIEF
 from orchestrator import Orchestrator
 import logging
-import sys
 from rich.prompt import Prompt
 from rich.console import Console
 

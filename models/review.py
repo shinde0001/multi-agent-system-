@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List
 
 class EditResult(BaseModel):
     status: str = Field(description="Must be 'approved' or 'revision_needed'")

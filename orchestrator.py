@@ -1,9 +1,7 @@
 from config import BookBrief, MAX_REVISIONS
 from agents import PlannerAgent, ResearcherAgent, WriterAgent, EditorAgent, FactCheckerAgent
-from models.chapter import ChapterDraft
 from rich.console import Console
 from rich.panel import Panel
-from rich.progress import Progress, SpinnerColumn, TextColumn
 import os
 import pathlib
 from md2pdf.core import md2pdf

@@ -1,5 +1,5 @@
 import os
-from typing import Type, TypeVar, Optional, Any
+from typing import Type, TypeVar, Optional
 from pydantic import BaseModel
 from google import genai
 from google.genai import types
