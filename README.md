@@ -80,17 +80,30 @@ GEMINI_API_KEY="your_api_key_here"
 
 ---
 
-## 📖 Usage
-
-Run the orchestrator from your terminal:
+Run the orchestrator from the project directory:
 
 ```bash
+cd multi-agent-system-
 python3 main.py
 ```
 
-1. **Answer the Prompts:** The CLI will ask if you want to use the default book or write a custom one. Type `n` to enter your own Topic, Audience, and Tone.
-2. **Watch the Agents Work:** The `rich` console interface will display live status updates as the agents research and debate over the chapters.
-3. **View the Output:** Depending on rate limits, the process takes about 5-10 minutes. The final compiled outputs will be saved in the `output/` directory as `book.md` and `book.pdf`.
+### 💡 Interactive CLI Example
+
+When you run `main.py`, you will be prompted for inputs. Here is an example of what to type for optimal results:
+
+```text
+Welcome to the Multi-Agent Book Writer!
+Do you want to write the default 'UPI' book? (y/n) [y/n] (y): n
+What is the title/topic of your book?: Risk Management Strategies for Day Traders
+Who is the target audience? (General readers): Beginner to Intermediate Stock Traders
+What tone should the book have? (Professional and engaging): Professional, analytical, and actionable
+```
+
+### Step-by-Step Workflow:
+1. **Choose Topic Mode:** Select `y` to generate the default UPI payments research book, or `n` to enter custom parameters.
+2. **Provide Details:** Enter your desired **Topic**, **Target Audience**, and **Tone** when prompted.
+3. **Watch the Agents:** The system will autonomously plan chapters, scrape search engines & Wikipedia for facts, write text with citations, run editorial quality checks, and fact-check references.
+4. **Access Generated Book:** Once completed, your full book is exported to `output/book.md` and styled `output/book.pdf`.
 
 ---
 
