@@ -80,10 +80,13 @@ GEMINI_API_KEY="your_api_key_here"
 
 ---
 
-Run the orchestrator from the project directory:
+Run the orchestrator from the project root:
 
 ```bash
+# If you just cloned the repo:
 cd multi-agent-system-
+
+# Run the pipeline:
 python3 main.py
 ```
 
